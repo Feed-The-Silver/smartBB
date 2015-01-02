@@ -8,8 +8,12 @@
 			<td class="colonne 2">
 				<tr>Truc</tr>
 			</td>
-		</table onload="table_generator.js">
-		<input type="text">
+		</table>
+		<script type="text/javascript">
+			$(function() {
+	$('input').attr('type')="text";
+});
+		</script>
 	</article>
 	<aside style="border:outset;">
 		<h3 class="titre">News</h3>
