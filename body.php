@@ -2,7 +2,6 @@
 <section id="main">
 	<article>
 		<table>
-                   <!-- commentaire -->
 			<td class="colonne 1">
 				<tr>test</tr>
 			</td>
@@ -21,6 +20,5 @@
 		<p class="content">
 			Placeholder for the News
 		</p>
-		<!-- Commentaire de test -->
 	</aside>
 </section>
