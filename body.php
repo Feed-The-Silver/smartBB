@@ -2,6 +2,7 @@
 <section id="main">
 	<article>
 		<table>
+                   <!-- commentaire -->
 			<td class="colonne 1">
 				<tr>test</tr>
 			</td>
