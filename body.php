@@ -20,5 +20,6 @@
 		<p class="content">
 			Placeholder for the News
 		</p>
+		<!-- Commentaire de test -->
 	</aside>
 </section>
