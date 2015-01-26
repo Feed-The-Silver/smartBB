@@ -21,6 +21,8 @@ try {
         GRANT ALL ON `$dbname`.* TO '$dbuser'@'localhost';
         FLUSH PRIVILEGES;")
     or die(print_r($dbh->errorInfo(), true));
+    
+    
     $verifier = fopen('valeur_utilisateurs.txt','r+');
     fseek($verifier, 0);
     fputs($verifier,'     ');
@@ -30,11 +32,9 @@ try {
 
     // use database
     $dbh = new PDO('mysql:host='.DB_HOST.';dbname='.$dbname, DB_ROOT_USER, DB_ROOT_PASS);
-
-
+  
 } catch (PDOException $e) {
     die("DB ERROR: ". $e->getMessage());
 }
-
 
 ?>
