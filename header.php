@@ -4,4 +4,5 @@
 	<input type="text" name="pseudo" placeholder="Pseudo">
 	<input type="text" name="mdp" placeholder="Mot de passe">
 	<input type="submit" name="Submit" value="Connexion">
+	<script src="jquery.js"></script>
 </form>
